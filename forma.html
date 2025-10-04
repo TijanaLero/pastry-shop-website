@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poručivanje</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  
+
+  </head>
+<body>
+
+    <!-- MENI_______________________________________________________________ -->
+    
+    <nav  class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img  src="./images/muffin.png"  alt="" height="45"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  fs-5">
+            <li class="nav-item">
+              <a class="nav-link active navbar-light " aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ponuda.html">Proizvodi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./forma.html">Naručivanje</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- MENI_KRAJ__________________________________________________________ -->
+
+
+        <video style="min-width: 100%; min-height: 100%; z-index: -1;"  autoplay muted loop>
+          <source class="h-100" src="./images/video (1080p).mp4" type="video/mp4" />
+        </video>
+    <div class="container p-5" style="position: absolute; top: 50px; color: white;">
+
+        <h2 class=" mx-5 naslov" style="margin-top: 5rem;">Poručite ovde</h2>
+        <p class="lead mx-5 podnaslov">ili nam postavite pitanje</p>
+
+<div class="row justify-content-start my-10 p-5">
+<div class="col-lg-6">
+    <form class="needs-validation" novalidate>
+        <label for="name" class="form-label">Ime i prezime poručioca:</label>
+        <input type="text" id="name" placeholder="Vaše ime i prezime" class="form-control" required>
+        <div class="invalid-feedback">
+         Neispravno popunjeno!   
+        </div>
+        <div class="valid-feedback">
+            Ispravno popunjeno!   
+           </div>
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" id="email" placeholder="moj@gmail.com" class="form-control" required>
+        <div class="invalid-feedback">
+            Unesite važeći e-mail!   
+           </div>
+        <label for="tel" class="form-label">Broj telefona:</label>
+        <input type="tel" id="tel" placeholder="npr. 0654179300" class="form-control" required>
+        <div class="invalid-feedback">
+            Niste ispravno uneli broj telefona!   
+           </div>
+        <label for="dostava" class="form-label">Želite li dostavu?</label>
+        <select type="dostava" id="dostava" class="form-control" required>
+            <option value="da">Da</option>
+            <option value="ne" selected>Ne</option>
+        </select>
+        <label for="date" class="form-label">Izaberite datum isporuke</label>
+        <input type="date" id="date" class="form-control">
+        <label for="time" class="form-label">Izaberite vreme isporuke</label>
+        <input type="time" id="time" class="form-control">
+        <div class="form-floating my-4">
+        <textarea name="query" id="query" cols="30" rows="6" placeholder="Dodatne napomene ili pitanja" class="form-control"></textarea>
+        <label for="query" style="color: black;">Dodatne napomene ili pitanja</label>
+    </div>
+        <div class="text-center" id="liveAlertPlaceholder">
+            <button type="submit" class="btn btn-secondary" id="liveAlertBtn">Pošalji</button>
+    </div>
+    </form>
+</div>
+</div>
+</div>
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer" class="footer">
+
+  <div class="container">
+    <div class="row gy-3">
+      <div class="col-lg-3 col-md-6 d-flex">
+        <i class="bi bi-geo-alt icon"></i>
+        <div>
+          <h4>Adresa</h4>
+          <p>
+            Vojvode Stepe 360 <br>
+            Beograd - Srbija<br>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-telephone icon"></i>
+        <div>
+          <h4>Rezervacije</h4>
+          <p>
+            <strong>Telefon:</strong> +381 6234466609<br>
+            <strong>Email:</strong> info@gmail.com<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-clock icon"></i>
+        <div>
+          <h4>Radno vreme</h4>
+          <p>
+            <strong>Ponedeljak-Subota: 11</strong> - 23<br>
+            Nedelja: zatvoreno
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links">
+        <h4>Follow Us</h4>
+        <div class="social-links d-flex">
+          <a href="#" class="twitter"><img src="./images/twitter.png" alt="" height="15"></a>
+          <a href="#" class="facebook"><img src="./images/facebook.png" alt="" height="15"></a>
+          <a href="#" class="instagram"><img src="./images/instagram-symbol.png" alt="" height="15"></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+
+<script>
+  (() => {
+  'use strict'
+
+  const forms = document.querySelectorAll('.needs-validation')
+
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+<script>
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Proverite da li ste ispravno popunili formu! Ukoliko su sva polja zelene boje to znači da smo primili Vašu porudžbinu.', 'success')
+  })
+}
+</script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

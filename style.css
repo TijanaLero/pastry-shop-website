@@ -1,0 +1,356 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+
+html{
+    font-size: 62.5%; /*10px*/
+
+}
+
+/* SEKCIJA HERO________________________________________________________ */
+
+#hero {
+   padding: 15rem 10rem; 
+   background-image: url(../images/torta_pozadina.jpg);
+   background-size: cover; 
+   height: 100vh;
+
+
+  }
+
+  #hero h1{
+    font-family: 'Sofia', cursive;
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 4rem;
+    text-shadow: 2px 2px 4px rgba(19, 18, 18, 0.733);
+
+  }
+  #hero p{
+    font-family: Verdana, Geneva, Tahoma, sans-serife;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #fff;
+    margin-top: 4rem;
+    text-shadow: 2px 2px 4px rgba(4, 4, 4, 0.733);
+
+  }
+  
+  
+  .section-header {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    /* text-transform: uppercase; */
+  }
+  
+  .section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  
+
+
+
+/* FEATURES SEKCIJA_________________________________________________________ */
+  
+ 
+  
+  #features p{
+    font-family: Verdana, Geneva, Tahoma, sans-serife;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: grey;
+  }
+  
+
+  #features{
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  #features h3{
+    font-family: 'Sofia', cursive;    
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    color: #000;
+    font-weight: bold;
+
+  }
+
+ 
+  .icon{
+    color: #ff4c68;
+    margin-bottom: 30px;
+  }
+  .icon:hover{
+    color: rgb(1, 1, 1);
+  }
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+    font-size: 14px;
+    background-color: #1f1f24;
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .footer .icon {
+    margin-right: 15px;
+    font-size: 24px;
+    line-height: 0;
+  }
+  
+  .footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    color: #fff;
+  }
+  
+  .footer .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  .footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  .footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  .footer .footer-links ul a:hover {
+    color: #fff;
+  }
+  
+  .footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+
+
+
+ /* GALERIJA SEKCIJA_______________________________________________________ */
+
+#galerija{
+   padding: 1rem;
+   text-align: center;
+   background-color: #eee;
+}
+
+#galerija h2{
+  font-family: 'Sofia', cursive;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(105, 83, 83, 0.733);
+
+    
+}
+#galerija p{
+    font-family: Verdana, Geneva, Tahoma, sans-serife;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(105, 83, 83, 0.733);
+    color: #fff;
+}
+#galerija h3{
+  font-family: 'Sofia', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(105, 83, 83, 0.733);
+    margin-top: 3rem;
+    
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ 
+
+  .slika-carousel{
+    height: 25rem;
+    width:25%;
+    margin: 1rem;
+    border-radius: 10%;
+    border: 1.5rem  #000;
+    margin-bottom: 5rem;
+    border: 1rem solid #eee;
+   
+  }
+  
+  /* PRICING SEKCIJA____________________________________________________________________ */
+
+  #pricing{
+    padding: 3rem;
+  }
+
+  #pricing h2{
+    font-family: 'Sofia', cursive;   
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
+  #pricing p{
+    font-family: Verdana, Geneva, Tahoma, sans-serife;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+
+  #pricing h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serife;
+    font-size: 1.8rem;
+    
+  }
+
+  #pricing a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* KUVARI SEKCIJA____________________________________________________________ */
+
+  #chefs{
+    padding: 5rem;
+    background-color: #eee;
+  }
+
+  #chefs h2{
+    font-family: 'Sofia', cursive;    
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .chefs .chef-member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+    transition: 0.3s;
+  }
+  
+  .chefs .chef-member .member-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .chefs .chef-member .member-img:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/team-shape.svg) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+  }
+  
+ 
+  
+  
+  .chefs .chef-member .member-info {
+    padding: 10px 15px 20px 15px;
+  }
+  
+  .chefs .chef-member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+   
+  }
+  
+  .chefs .chef-member .member-info span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.4);
+  }
+  
+  .chefs .chef-member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: rgba(33, 37, 41, 0.7);
+  }
+  
+  .chefs .chef-member:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+  }
+
+  
