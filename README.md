@@ -72,3 +72,12 @@ The main goal of the project was to practice responsive design, layout structuri
 2. Open the project folder.
 3. Open `index.html` in your web browser
 No additional setup or dependencies are required.
+
+---
+
+## Project Purpose
+
+This project was created for learning and portfolio purposes.
+It demonstrates the use of responsive layouts, Bootstrap components, basic JavaScript interactivity, and form validation in a realistic small business website scenario.
+
+This website does not represent a real business.
